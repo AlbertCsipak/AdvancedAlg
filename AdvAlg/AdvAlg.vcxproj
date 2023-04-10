@@ -128,13 +128,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AdvAlg.cpp" />
+    <ClCompile Include="Animlog.cpp" />
+    <ClCompile Include="GeneticAlgorithms.cpp" />
+    <ClCompile Include="GeneticProgramming.cpp" />
     <ClCompile Include="ImageSegmentation.cpp" />
+    <ClCompile Include="KMEANS.cpp" />
     <ClCompile Include="PathFinding.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="TextLog.cpp" />
     <ClCompile Include="TravellingSalesman.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animlog.h" />
+    <ClInclude Include="GeneticAlgorithms.h" />
+    <ClInclude Include="GeneticProgramming.h" />
     <ClInclude Include="ImageSegmentation.h" />
+    <ClInclude Include="KMEANS.h" />
     <ClInclude Include="PathFinding.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="TextLog.h" />
     <ClInclude Include="TravellingSalesman.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

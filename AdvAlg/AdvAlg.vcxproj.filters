@@ -25,6 +25,12 @@
     <Filter Include="Source Files\Algs">
       <UniqueIdentifier>{326f1d51-4c2d-4ce1-903a-47d5a1c058bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{17e70167-91b3-42c6-affe-8bce886aaa43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{95467328-5078-4cf4-a38f-35638b482153}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdvAlg.cpp">
@@ -39,6 +45,24 @@
     <ClCompile Include="TravellingSalesman.cpp">
       <Filter>Source Files\Problems</Filter>
     </ClCompile>
+    <ClCompile Include="KMEANS.cpp">
+      <Filter>Source Files\Algs</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneticProgramming.cpp">
+      <Filter>Source Files\Algs</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneticAlgorithms.cpp">
+      <Filter>Source Files\Algs</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TextLog.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Animlog.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ImageSegmentation.h">
@@ -49,6 +73,24 @@
     </ClInclude>
     <ClInclude Include="TravellingSalesman.h">
       <Filter>Header Files\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneticProgramming.h">
+      <Filter>Header Files\Algs</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneticAlgorithms.h">
+      <Filter>Header Files\Algs</Filter>
+    </ClInclude>
+    <ClInclude Include="KMEANS.h">
+      <Filter>Header Files\Algs</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TextLog.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Animlog.h">
+      <Filter>Header Files\Utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
