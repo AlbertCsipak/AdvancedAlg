@@ -2,13 +2,21 @@
 //
 
 #include <iostream>
+#include <vector>
+
 #include "ImageSegmentation.h"
+#include "PathFinding.h"
+#include "TravellingSalesman.h"
+
+#include "GeneticAlgorithms.h"
+#include "GeneticProgramming.h"
+#include "KMEANS.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
 
-    ImageSegmentation img = ImageSegmentation();
-    img.loadImageFromFile("alma.png");
+    GenericAlgorithm gen;
+    gen.Run(gen, 10000);
 
 }

@@ -31,6 +31,9 @@
     <Filter Include="Source Files\Utils">
       <UniqueIdentifier>{95467328-5078-4cf4-a38f-35638b482153}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{440b519e-0cff-4a95-a859-cfbc5dff6cdc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdvAlg.cpp">
@@ -91,6 +94,9 @@
     </ClInclude>
     <ClInclude Include="Animlog.h">
       <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files\common</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
