@@ -31,12 +31,24 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ImageSegmentation.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinding.cpp">
+      <Filter>Source Files\Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="TravellingSalesman.cpp">
+      <Filter>Source Files\Problems</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ImageSegmentation.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinding.h">
+      <Filter>Header Files\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="TravellingSalesman.h">
+      <Filter>Header Files\Problems</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

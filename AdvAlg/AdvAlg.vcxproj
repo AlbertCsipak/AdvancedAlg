@@ -129,9 +129,13 @@
   <ItemGroup>
     <ClCompile Include="AdvAlg.cpp" />
     <ClCompile Include="ImageSegmentation.cpp" />
+    <ClCompile Include="PathFinding.cpp" />
+    <ClCompile Include="TravellingSalesman.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ImageSegmentation.h" />
+    <ClInclude Include="PathFinding.h" />
+    <ClInclude Include="TravellingSalesman.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
