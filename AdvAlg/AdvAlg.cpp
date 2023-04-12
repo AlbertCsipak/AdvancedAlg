@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <vector>
+#include <stdlib.h>
 
 #include "ImageSegmentation.h"
 #include "PathFinding.h"
@@ -14,9 +15,25 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Hello GeneticAlgorithms!\n";
+    int genCount = 0;
 
     GenericAlgorithm gen;
-    gen.Run(gen, 10000);
 
+    gen.BatchSize = 100000;
+    gen.CreateSolutions();
+    ;
+    while (true)
+    {
+        genCount++;
+        gen.EvaluateFitnesses();
+        gen.SortCollection();
+        system("CLS");
+        std::cout <<"Generation: " << genCount << "\nTop 10:";
+        gen.PrintCollection();
+        gen.TakeBestSolutions();
+        gen.MutateSolutions(0.4);
+        gen.Crossover();
+        ;
+    }
 }
